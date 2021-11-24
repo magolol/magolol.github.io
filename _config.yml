@@ -1,6 +1,6 @@
 lsi: false
 safe: true
-source: https:magolol.github.io
+source: https://magolol.github.io
 incremental: false
 highlighter: rouge
 gist:
