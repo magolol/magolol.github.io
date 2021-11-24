@@ -27,6 +27,8 @@ TWiLight Menu includes NDS Bootstrap, but it is not properly set up for forwarde
 
 	**What you will need...**
 
+	·Common Sense
+
 	·A 3ds running CFW
 
 	·`.cia` file(s)
@@ -35,18 +37,20 @@ TWiLight Menu includes NDS Bootstrap, but it is not properly set up for forwarde
 
 	·An SD card of decently large size
 
-**1b. Getting Started (For DS)
+**1b. Getting Started (For DS)**
 
 	**What you will need...**
 	
 	· TWiLight Menu ++ (the .`cia`)
+	
+	·All of the afforementioned 
 
 
 **2. Setup**
 
 	Power off the console and insert your SD into your system. copy your .cia files to your preferred directory on the SD. Safely eject the SD once finished and place it back into your console. Power on the console
 
-**2b. Setup (For DS)
+**2b. Setup (For DS)**
 
 	Power off the console and insert your SD into your system. copy the TWiLight Menu ++ .cia file to your preferred directory, as well as copy your nds files to your preferred directory. (Normally, this will be `/roms/nds.`) Safely eject the SD once finished and place it back into your console. Power on the console
 
@@ -59,12 +63,12 @@ TWiLight Menu includes NDS Bootstrap, but it is not properly set up for forwarde
 
 	Once FBI finishes the installation, close out to the home menu and unwrap everythng you installed.
 
-**3b. Open FBI (For DS)
+**3b. Open FBI (For DS)**
 
 	In most cases, FBI will be installed to your home menu. Open FBI and navigate to SD, then to the directory you saved the .cia file. You may choose to install and delete or just install; it doesn't change anything.
 	Once FBI finished the installation, close out to the home menu and unwrap TWiLight Menu ++
 
-**4b. Launch TWiLight Menu ++ (For DS)
+**4b. Launch TWiLight Menu ++ (For DS)**
 	
 	Navigate to the directory you saved your .nds DS roms and launch the game of your choice. 
 
