@@ -10,6 +10,9 @@ The 3DS is limited to a very slow read/write bandwith that makes downloading sof
 
 While the chances of your hardware being damaged are very small, this guide and it's afilliates assume no responsibility if something goes wrong. Blame yourself, your eyes, your hands, your brain, etc.
 
+For those who are worried about getting banned, dont. Nintendo does not ban for pirated games. You can play with others online with no problems. This means turning off streetpass is not necessary.
+
+
 DO NOT BLAME US. YOU HAVE BEEN WARNED
 
 **1. Getting started**
