@@ -1,3 +1,8 @@
+**A brief explanation of the process.**
+
+When modded, the 3ds is an incredibly easy console to run "backups" on. Out of the box Luma has signature check patches and even the most [commonly used setup guide](https://3ds.hacks.guide) sets up FBI.
+FBI installs CIA files, which are in simplest terms installation packages for the 3ds.
+You can obtain these from dumping them yourself or "commiting fraud" and downloading them from [hshop](https://hshop.erista.me/)
 
 **1. Getting started**
 
@@ -5,8 +10,8 @@
 
 	·A 3ds running CFW
 
-	·CIA files You can obtain these from dumping them yourself or "commiting fraud" and downloading them from [hshop](https://hshop.erista.me/)
-
+	·CIAS
+	
 	·FBI
 
 	·An SD card of decently large size
