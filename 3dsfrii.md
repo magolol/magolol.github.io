@@ -4,6 +4,14 @@ When modded, the 3ds is an incredibly easy console to run "backups" on. Out of t
 FBI installs CIA files, which are in simplest terms installation packages for the 3ds.
 You can obtain these from dumping them yourself or "commiting fraud" and downloading them from [hshop](https://hshop.erista.me/)
 
+**A few things to note**
+
+The 3DS is limited to a very slow read/write bandwith that makes downloading software quite sluggish. This does NOT have anything to do with a broken console/ SD card this is simply just a hardware limitation
+
+While the chances of your hardware being damaged are very small, this guide and it's afilliates assume no responsibility if something goes wrong. Blame yourself, your eyes, your hands, your brain, etc.
+
+DO NOT BLAME US. YOU HAVE BEEN WARNED
+
 **1. Getting started**
 
 	**What you will need...**
