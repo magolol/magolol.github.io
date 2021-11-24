@@ -37,5 +37,5 @@ DO NOT BLAME US. YOU HAVE BEEN WARNED
 
 	Once FBI finishes the installation, close out to the home menu and unwrap everythng you installed.
 
-Wow! wasn't that easy?
+Wow! wasn't that sussy?
 
