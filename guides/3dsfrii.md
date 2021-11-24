@@ -25,52 +25,52 @@ TWiLight Menu includes NDS Bootstrap, but it is not properly set up for forwarde
 
 **1. Getting started**
 
-	**What you will need...**
+**What you will need...**
 
-	·Common Sense
+-Common Sense
 
-	·A 3ds running CFW
+-A 3ds running CFW
 
-	·`.cia` file(s)
+-`.cia` file(s)
 	
-	·FBI
+-FBI
 
-	·An SD card of decently large size
+-An SD card of decently large size
 
 **1b. Getting Started (For DS)**
 
-	**What you will need...**
+**What you will need...**
 	
-	· TWiLight Menu ++ (the .`cia`)
+-TWiLight Menu ++ (the .`cia`)
 	
-	·All of the afforementioned 
+-All of the afforementioned 
 
 
 **2. Setup**
 
-	Power off the console and insert your SD into your system. copy your .cia files to your preferred directory on the SD. Safely eject the SD once finished and place it back into your console. Power on the console
+Power off the console and insert your SD into your system. copy your `.cia` files to your preferred directory on the SD. Safely eject the SD once finished and place it back into your console. Power on the console
 
 **2b. Setup (For DS)**
 
-	Power off the console and insert your SD into your system. copy the TWiLight Menu ++ .cia file to your preferred directory, as well as copy your nds files to your preferred directory. (Normally, this will be `/roms/nds.`) Safely eject the SD once finished and place it back into your console. Power on the console
+Power off the console and insert your SD into your system. copy the TWiLight Menu ++ `.cia` file to your preferred directory, as well as copy your `.nds` files to your preferred directory. (Normally, this will be `/roms/nds.`) Safely eject the SD once finished and place it back into your console. Power on the console
 
 
 **3. Open FBI**
 
-	In most cases, FBI will be installed to your home menu. Open FBI and navigate to SD, then to the directory you saved the .cia files. 
+In most cases, FBI will be installed to your home menu. Open FBI and navigate to SD, then to the directory you saved the `.cia` files. 
 
-	If you have multiple files you want to install all at once, select current directory. Then choose to either install and delete all files or just install them.
+If you have multiple files you want to install all at once, select current directory. Then choose to either install and delete all files or just install them.
 
-	Once FBI finishes the installation, close out to the home menu and unwrap everythng you installed.
+Once FBI finishes the installation, close out to the home menu and unwrap everythng you installed.
 
 **3b. Open FBI (For DS)**
 
-	In most cases, FBI will be installed to your home menu. Open FBI and navigate to SD, then to the directory you saved the .cia file. You may choose to install and delete or just install; it doesn't change anything.
-	Once FBI finished the installation, close out to the home menu and unwrap TWiLight Menu ++
+In most cases, FBI will be installed to your home menu. Open FBI and navigate to SD, then to the directory you saved the `.cia` file. You may choose to install and delete or just install; it doesn't change anything.
+Once FBI finishes the installation, close out to the home menu and unwrap TWiLight Menu ++
 
 **4b. Launch TWiLight Menu ++ (For DS)**
 	
-	Navigate to the directory you saved your .nds DS roms and launch the game of your choice. 
+Navigate to the directory you saved your `.nds` DS roms and launch the game of your choice. 
 
 Wow! wasn't that easy?
 

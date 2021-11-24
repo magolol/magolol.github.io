@@ -85,6 +85,7 @@ Either set the password as nothing or something simple that you are not going to
 If done correctly, Tinfoil will report writing to CAL0 was successful. Reboot the system. Verify incognito has been enabled correctly by doing the same process as listed in step 3.
 
 Incognito is **permanent,** and relies on no files to stay active. It's best usecase is as a fail safe. 
+
 [Return to main page](https://magolol.github.io)
 
 [Return to guides](https://magolol.github.io)
