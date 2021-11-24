@@ -8,9 +8,10 @@ You can obtain these from dumping them yourself or "commiting fraud" and downloa
 
 The 3DS is limited to a very slow read/write bandwith that makes downloading software quite sluggish. This does NOT have anything to do with a broken console/ SD card this is simply just a hardware limitation
 
-While the chances of your hardware being damaged are very small, this guide and it's afilliates assume no responsibility if something goes wrong. Blame yourself, your eyes, your hands, your brain, etc.
+For those who are worried about getting banned, don't. Nintendo does not ban for pirated games. You can play with others online with no problems. This means turning off streetpass is not necessary.
 
-For those who are worried about getting banned, dont. Nintendo does not ban for pirated games. You can play with others online with no problems. This means turning off streetpass is not necessary.
+**While the chances of your hardware being damaged are very small, this guide and it's afilliates assume no responsibility if something goes wrong. Blame yourself, your eyes, your hands, your brain, etc.**
+
 
 
 DO NOT BLAME US. YOU HAVE BEEN WARNED
