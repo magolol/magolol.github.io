@@ -1,4 +1,4 @@
-**How to get 3DS and DS game "backups" running on the 3ds** (https://magolol.github.io/3dsfrii)
+[**How to get 3DS and DS game "backups" running on the 3ds**] (https://magolol.github.io/3dsfrii)
 
 **How to get Wii and Gamecube "backups" running on the Wii** 
 
