@@ -1,0 +1,1 @@
+# magolol.github.io
