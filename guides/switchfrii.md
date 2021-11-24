@@ -13,19 +13,25 @@ We have many ways to prevent bans and block telemetry, and it is highly suggeste
 
 DO NOT BLAME US. YOU HAVE BEEN WARNED
 
+**Downloads
+
+[DBI](https://github.com/rashevskyv/dbi/releases/latest) 
+Download the `DBI.nro`, `dbi.config`, and the `dbibackend.exe`. If you aren't using windows, you'll need to extract the `dbibackend` folder from `dbibackend.tar.xz`
+[Atmosphere Patches](https://github.com/ITotalJustice/patches/releases/latest)
+
 **1. Getting started**
 
 	**What you will need...**
 
+	·Common Sense
+
 	·A Switch console running cfw
+
+	·Atmosphere Patches
 
 	·NSP/NSZ/XCI/XCZ files (it doesn't matter which installable you choose, so long as you have the file is what counts.
 	
-	·Title installer of your choice (This guide encourages the use of Tinwoo for it's simplicity and speed)
-
-	·NS-Usbloader
-
-	·Java (required for NS-usbloader)
+	·DBI installed on both your switch and pc
 
 	·A USB C cable
 
@@ -34,15 +40,19 @@ DO NOT BLAME US. YOU HAVE BEEN WARNED
 
 **2. Setup**
 
-	Power on the console and launch Tinwoo through a title override
+	Choose whichever method you like for accessing the SD (Hekate UMS, FTP, etc) and navigate to the switch folder on the root of the sd. Open up switch and make a folder titled DBI. Copy DBI.nro and dbi.config to this folder. 
+	If your console wasn't booted to the OS, boot/power on the console. If you were simply using FTP, close out of the client. Open the homebrew menu and launch DBI.
+	It doesn't matter if you launch through applet or through override. 
 
-**3. Open FBI**
+**3. Launch the DBI Backend**
 
-	In most cases, FBI will be installed to your home menu. Open FBI and navigate to SD, then to the directory you saved the CIA files. 
+	Assuming your files are all held in a folder, navigate to that folder. If you're only installing one file, navigate to that file. Once everything is selected, press Start Server.
 
-	If you have multiple files you want to install all at once, select current directory. Then choose to either install and delete all cia files or just install them.
+**4. Connect your USB cable to both the switch and pc**
 
-	Once FBI finishes the installation, close out to the home menu and unwrap everythng you installed.
+	You might need to restart DBI on the switch in order for changes to take effect
+	Select "Install title from USB"
+	If all is correct, you will see the files on the switch. You can then use common sense to manually select and deselect what you want installed. Wait for the process to finish, then close out of DBI.
 
-Wow! wasn't that easy?
+Your totally legit backups should now appear on your homescreen. Wow! wasn't that easy?
 
