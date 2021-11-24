@@ -5,7 +5,7 @@
 
 	·A 3ds running CFW
 
-	·CIA files You can obtain these from dumping them yourself or "commiting fraud" and downloading them from hshop
+	·CIA files You can obtain these from dumping them yourself or "commiting fraud" and downloading them from [hshop](https://hshop.erista.me/)
 
 	·FBI
 
