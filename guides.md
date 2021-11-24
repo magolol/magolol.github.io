@@ -2,10 +2,10 @@
 
 [**How to get m"backups" running on the Switch**](https://magolol.github.io/guides/switchfrii)
 
-[**How to get prevent bans on the Switch**](https://magolol.github.io/guides/switchbanprevention)
+[**How to get prevent bans on the Switch**](https://magolol.github.io/guides/switchbanprotection)
 
 
 
 **How to get Wii and Gamecube "backups" running on the Wii** 
 
-**How to get Wii U, Wii, and Gamecube "backups" running on the Wii U**
+[**How to get Wii U, Wii, and Gamecube "backups" running on the Wii U**](https://magolol.github.io/guides/wiiufrii)
