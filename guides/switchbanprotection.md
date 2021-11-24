@@ -6,16 +6,17 @@ We have many ways to prevent bans and block telemetry, and it is highly suggeste
 
 EmuMMC is a fantastic way to prevent bans when utilized properly, but it is not by itself perfect. But with a little bit of work, we can make it nearly perfect.
 
-#####What will get you banned
+What will get you banned
 ***
 - Modifying Online Games
 	- Cheating in online games
     - Using mods in online games
     - Editing save files for online games
-- Making modifications to your SysNAND.
+- Making modifications to your sysMMC
     - Installing **nsp**/**nsz**/**xci**/**xcz** files.
 		- Installing homebrew forwarders will get you banned.
 		- Installing game backups will get you banned.
+-clearing logs after they've been sent (this applies to both sysMMC and emuMMC)
     - Running nro's that modify your SysNAND (Tinfoil Installer, incognito, etc.)
 	- Using a custom user picture
 - Doing the above points on EmuMMC without using:
@@ -31,22 +32,24 @@ DO NOT BLAME US. YOU HAVE BEEN WARNED
 
 **1. Getting started**
 
-	-Start off by creating a file named exosphere.ini on the root of your SD and paste the following:
+Start off by creating a file named exosphere.ini on the root of your SD and paste the following:
 
-	**For EmuNAND:**
-	```INI
-	[exosphere]
-	debugmode=1
-	debugmode_user=0
-	disable_user_exception_handlers=0
-	enable_user_pmu_access=0
-	blank_prodinfo_sysmmc=0
-	blank_prodinfo_emummc=1
-	allow_writing_to_cal_sysmmc=0
-	log_port=0
-	log_baud_rate=115200
-	log_inverted=0
-	```
+**This assumes you are using emuMMC:**
+	
+```INI
+[exosphere]
+debugmode=1
+debugmode_user=0
+disable_user_exception_handlers=0
+enable_user_pmu_access=0
+blank_prodinfo_sysmmc=0
+blank_prodinfo_emummc=1
+allow_writing_to_cal_sysmmc=0
+log_port=0
+log_baud_rate=115200
+log_inverted=0
+```
+	
 
 [Return to main page](https://magolol.github.io)
 
