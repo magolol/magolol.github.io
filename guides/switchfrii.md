@@ -1,7 +1,7 @@
 **A brief explanation of the process.**
 
 The switch is a very easy system to get CFW running on so long as you have an exploitable system. Read [this](https://ismyswitchpatched.com) and [this](switchgui.de) for more info. 
-Stock atmosphere (the only valid CFW at the moment) does not have signature check patches but we can quite easily add them through community made patches.
+Stock Atmosphère (the only valid CFW at the moment) does not have signature check patches but we can quite easily add them through community made patches.
 You can obtain these by [dumping them yourself](https://suchmememanyskill.github.io/guides/switchdumpguide/) or "commiting fraud" and downloading them from a stash or site like [nsw2u](https://nsw2u.xyz/)
 
 **A few things to note**
@@ -17,7 +17,7 @@ DO NOT BLAME US. YOU HAVE BEEN WARNED
 
 [DBI](https://github.com/rashevskyv/dbi/releases/latest) 
 Download the `DBI.nro`, `dbi.config`, and the `dbibackend.exe`. If you aren't using windows, you'll need to extract the `dbibackend` folder from `dbibackend.tar.xz`
-[Atmosphere Patches](https://github.com/ITotalJustice/patches/releases/latest)
+[Atmosphère Patches](https://github.com/ITotalJustice/patches/releases/latest) Grab either zip.
 
 **1. Getting started**
 
@@ -27,7 +27,7 @@ Download the `DBI.nro`, `dbi.config`, and the `dbibackend.exe`. If you aren't us
 
 	·A Switch console running cfw
 
-	·Atmosphere Patches
+	·Atmosphère Patches
 
 	·NSP/NSZ/XCI/XCZ files (it doesn't matter which installable you choose, so long as you have the file is what counts.
 	
@@ -40,17 +40,16 @@ Download the `DBI.nro`, `dbi.config`, and the `dbibackend.exe`. If you aren't us
 
 **2. Setup**
 
-	Choose whichever method you like for accessing the SD (Hekate UMS, FTP, etc) and navigate to the switch folder on the root of the sd. Open up switch and make a folder titled DBI. Copy DBI.nro and dbi.config to this folder. 
-	If your console wasn't booted to the OS, boot/power on the console. If you were simply using FTP, close out of the client. Open the homebrew menu and launch DBI.
-	It doesn't matter if you launch through applet or through override. 
+	Power off the system (or reboot to hekate) and either eject your SD and insert it into your pc or use hekate's SD UMS tool to access your SD. Open the fusee.zip or hekate.zip (Atmosphère patches) and extract the two folders to the root of your SD.
+	Open up the switch folder and make a subfolder titled DBI. Copy DBI.nro and dbi.config to this folder. Safely eject the SD (regardless of which method you use) and boot into Atmosphère
 
 **3. Launch the DBI Backend**
 
-	Assuming your files are all held in a folder, navigate to that folder. If you're only installing one file, navigate to that file. Once everything is selected, press Start Server.
+	Assuming your files are all held in a folder, navigate to that folder. If you're only installing one file, navigate to that file. Once everything is selected, press Start Server. Connect your USB cable to both your switch and PC.
 
 **4. Connect your USB cable to both the switch and pc**
 
-	You might need to restart DBI on the switch in order for changes to take effect
+	Launch DB Installer from the home menu. If you already launched DBI before connecting the USB, you might need to restart DBI on the switch in order for changes to take effect
 	Select "Install title from USB"
 	If all is correct, you will see the files on the switch. You can then use common sense to manually select and deselect what you want installed. Wait for the process to finish, then close out of DBI.
 
