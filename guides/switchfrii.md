@@ -56,3 +56,7 @@ Download the `DBI.nro`, `dbi.config`, and the `dbibackend.exe`. If you aren't us
 
 Your totally legit backups should now appear on your homescreen. Wow! wasn't that easy?
 
+[Return to main page](https://magolol.github.io)
+
+[Return to guides](https://magolol.github.io)
+

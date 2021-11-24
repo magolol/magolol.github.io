@@ -43,3 +43,6 @@ DO NOT BLAME US. YOU HAVE BEEN WARNED
 
 Wow! wasn't that easy?
 
+[Return to main page](https://magolol.github.io)
+
+[Return to guides](https://magolol.github.io)
