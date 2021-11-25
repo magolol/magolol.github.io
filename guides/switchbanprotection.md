@@ -13,20 +13,19 @@ What will get you banned
     - Using mods in online games
     - Editing save files for online games
 - Making modifications to your sysMMC
-    - Installing **nsp**/**nsz**/**xci**/**xcz** files.
-		- Installing homebrew forwarders will get you banned.
-		- Installing game backups will get you banned.
--clearing logs after they've been sent (this applies to both sysMMC and emuMMC)
-    - Running nro's that modify your SysNAND (Tinfoil Installer, incognito, etc.)
+    - Installing nsp/*nsz/xci/xcz files
+		- Installing homebrew forwarders OR backups (even if you legitimately dumped them!) will get you banned. 
+- Clearing logs after they've been sent (this applies to both sysMMC and emuMMC)
+    - Running anything to modify your sysMMC
 	- Using a custom user picture
-- Doing the above points on EmuMMC without using:
+- Doing the above points on emuMMC without using:
 	- Exosphere/Incognito
 	- dns.mitm
 
 **Please note we will be doing semi permanent measures. While the chances of your hardware being damaged are very small, this guide and it's afilliates assume no responsibility if something goes wrong. Blame yourself, your eyes, your hands, your brain, etc.**
 **ALWAYS MAKE A BACKUP. THE BEST BACKUP IS THE ONE YOU MADE BUT NEVER NEED, WHILE THE WORST ONE IS THE ONE YOU NEED BUT NEVER MADE.**
 
-DO NOT BLAME US. YOU HAVE BEEN WARNED
+**DO NOT BLAME US. YOU HAVE BEEN WARNED**
 
 **Downloads**
 
