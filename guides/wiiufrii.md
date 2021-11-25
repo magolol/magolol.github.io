@@ -8,3 +8,7 @@ FunkiiU (Requires Python):
 
 JNUStool (Requires Java):  
 [https://wiki.agilly1989.xyz/books/wiiu/page/maschells-toolkit#bkmrk-jnustool](https://wiki.agilly1989.xyz/books/wiiu/page/maschells-toolkit#bkmrk-jnustool)
+
+**[Return to main page](https://magolol.github.io)**
+
+**[Return to guides](https://magolol.github.io)**

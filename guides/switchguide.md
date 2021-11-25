@@ -9,6 +9,6 @@ If you want a good, reliable video guide for installation of these modchips, che
 
 [Continue to getting started](https://magolol.github.io/guides/switchguide/gettingstarted)
 
-[Return to main page](https://magolol.github.io)
+**[Return to main page](https://magolol.github.io)**
 
-[Return to guides](https://magolol.github.io/guides)
+**[Return to guides](https://magolol.github.io)**

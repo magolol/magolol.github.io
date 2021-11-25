@@ -85,7 +85,7 @@ If done correctly, Tinfoil will report writing to CAL0 was successful. Reboot th
 
 Incognito is **permanent,** and relies on no files to stay active. It's best usecase is as a fail safe. 
 
-[Return to main page](https://magolol.github.io)
+**[Return to main page](https://magolol.github.io)**
 
-[Return to guides](https://magolol.github.io)
+**[Return to guides](https://magolol.github.io)**
 

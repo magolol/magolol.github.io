@@ -80,12 +80,18 @@ If you're still getting the `boot.dat`? alert, make sure you did the following:
 
 Once in hekate, you have a few options.
 
-First and foremost, you should make a nand backup. [Continue to making a nand backup](https://magolol.github.io/guides/switchguide/nanddump)
--while not 100% needed, it's very much recommended you do so. 
+**First and foremost, you should make a nand backup. [Continue to making a nand backup](https://magolol.github.io/guides/switchguide/nanddump)**
 
-If you don't want to make a nand backup for whatever reason but want an emuMMC, that is also an option. (but, if you're gonna spend the time to make an emummc, why not just make a damn backup?)
+**-while not 100% needed, it's very much recommended you do so.**
 
-Either way, if you just want to make an emuMMC before a backup, you can [continue to formatting the SD for emuMMC.](https://magolol.github.io/guides/switchguide/emummccreation)
--while not 100% needed, emuMMC is highly recommended for safety and [helping prevent bans.](https://magolol.github.io/guides/switchguide/switchbanprotection)
+**If you don't want to make a nand backup for whatever reason but want an emuMMC, that is also an option. (but, if you're gonna spend the time to make an emummc, why not just make a damn backup?)**
 
-If safety and bans aren't concerns of yours, you can [continue to booting atmosphere](https://magolol.github.io/guides/switchguide/bootingatmosphere)
+**Either way, if you just want to make an emuMMC before a backup, you can [continue to formatting the SD for emuMMC.](https://magolol.github.io/guides/switchguide/emummccreation)**
+
+**-while not 100% needed, emuMMC is highly recommended for safety and [helping prevent bans.](https://magolol.github.io/guides/switchguide/switchbanprotection)**
+
+**If safety and bans aren't concerns of yours, you can [continue to booting atmosphere](https://magolol.github.io/guides/switchguide/bootingatmosphere)**
+
+**[Return to main page](https://magolol.github.io)**
+
+**[Return to guides](https://magolol.github.io)**

@@ -55,7 +55,7 @@ If all is correct, you will see the files on the switch. You can then use common
 
 Your totally legit backups should now appear on your homescreen. Wow! wasn't that easy?
 
-[Return to main page](https://magolol.github.io)
+**[Return to main page](https://magolol.github.io)**
 
-[Return to guides](https://magolol.github.io)
+**[Return to guides](https://magolol.github.io)**
 

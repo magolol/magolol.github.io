@@ -84,6 +84,6 @@ Navigate to the directory you saved your `.nds` DS roms and launch the game of y
 
 Wow! wasn't that easy?
 
-[Return to main page](https://magolol.github.io)
+**[Return to main page](https://magolol.github.io)**
 
-[Return to guides](https://magolol.github.io)
+**[Return to guides](https://magolol.github.io)**
