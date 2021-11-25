@@ -1,4 +1,4 @@
-#A brief explanation of the process
+**A brief explanation of the process**
 
 When modded, the 3ds is an incredibly easy console to run "backups" on. Stock, Luma3DS has sigpatches and even the most [commonly used setup guide](https://3ds.hacks.guide) sets up FBI.
 FBI installs `.cia` files, which are in simplest terms installation packages for the 3ds.
