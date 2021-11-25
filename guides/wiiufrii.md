@@ -1,4 +1,4 @@
-there are already guides for wiiufrii so we will just link them here. pick one, for newbies USBHelper is the easiest.
+**There are already plenty of goodguides for wiiufrii so we will just link them here. pick one.  For newbies, USBHelper is the easiest.**
 
 USBHelper+USBHelper Launcher:  
 [https://wiki.agilly1989.xyz/books/wiiu/page/usbhelper-usbhelperlauncher](https://wiki.agilly1989.xyz/books/wiiu/page/usbhelper-usbhelperlauncher)  
