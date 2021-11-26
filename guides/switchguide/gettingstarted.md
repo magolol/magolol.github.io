@@ -18,6 +18,7 @@
 
 **Downloads**
 [Rufus](https://rufus.ie/en/) 
+
 -This is a tool used for SD formatting on windows. Select non-bootable, MBR, Fat32, and format. Easy as that.
 
 [Hekate](https://github.com/CTCaer/hekate/releases/latest)
@@ -34,7 +35,9 @@
 
 -Fully shut off the system
 - Now would be a good time to eject the SD card and insert it into your PC ;)
+
 -Insert the jig
+
 -Press and hold volume up. While holding volume up, tap the power button
 
 The screen should remain blank with no backlight. Connect your switch to your PC. Assuming you use windows, launch TegraRCMgui and download the driver when prompted. 
