@@ -51,7 +51,8 @@ Extract the `bootloader` folder to the root of your SD card.
 
 Inside the `bootloader` folder, create a file titled `hekate_ipl.ini`. Open it and paste the following contents inside:
 
-`[config]
+```INI
+[config]
 autoboot=0
 autoboot_list=0
 bootwait=3
@@ -61,9 +62,11 @@ autonogc=1
 updater2p=0
 bootprotect=0
 
+
 [Atmosphere]
 payload=bootloader/payloads/fusee.bin
-icon=bootloader/res/icon_payload.bmp`
+icon=bootloader/res/icon_payload.bmp
+```
 
 Safely eject the SD card and insert it into your switch. You can freely remove and insert the SD while inside RCM
 
@@ -86,7 +89,8 @@ Extract the `bootloader` folder and `hekate_ctcaer_x.x.x.bin` file from the `hek
 
 Inside the `bootloader` folder, create a file titled `hekate_ipl.ini`. Open it and paste the following contents inside:
 
-`[config]
+```INI
+[config]
 autoboot=0
 autoboot_list=0
 bootwait=3
@@ -96,17 +100,21 @@ autonogc=1
 updater2p=0
 bootprotect=0
 
+
 [Atmosphere]
 payload=bootloader/payloads/fusee.bin
-icon=bootloader/res/icon_payload.bmp`
+icon=bootloader/res/icon_payload.bmp
+```
 
 If you're on a mariko switch, add the following:
 
-`[Warmboot Error Fix]
+```INI
+[Warmboot Error Fix]
 fss0=atmosphere/package3
 stock=1
 emummc_force_disable=1
-icon=bootloader/res/icon_switch.bmp`
+icon=bootloader/res/icon_switch.bmp
+```
 
 
 Safely eject the SD card and insert it into your switch, then press the power button. The modchip LED should hopefully flash green shortly before hekate loads on the screen.
@@ -133,7 +141,8 @@ Extract the `boot.dat` and `boot.ini` files from the `SX_Gear_v1.1.zip` to the r
 
 Inside the `bootloader` folder, create a file titled `hekate_ipl.ini`. Open it and paste the following contents inside:
 
-`[config]
+```INI
+[config]
 autoboot=0
 autoboot_list=0
 bootwait=3
@@ -143,17 +152,21 @@ autonogc=1
 updater2p=0
 bootprotect=0
 
+
 [Atmosphere]
 payload=bootloader/payloads/fusee.bin
-icon=bootloader/res/icon_payload.bmp`
+icon=bootloader/res/icon_payload.bmp
+```
 
 If you're on a mariko switch, add the following:
 
-`[Warmboot Error Fix]
+```INI
+[Warmboot Error Fix]
 fss0=atmosphere/package3
 stock=1
 emummc_force_disable=1
-icon=bootloader/res/icon_switch.bmp`
+icon=bootloader/res/icon_switch.bmp
+```
 
 Safely eject the SD card and insert it into your switch, then press the power button. The modchip LED should hopefully flash green shortly before hekate loads on the screen.
 
