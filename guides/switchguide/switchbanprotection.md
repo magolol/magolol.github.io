@@ -57,12 +57,14 @@ log_inverted=0
 Create a file named `emummc.txt` in `/atmosphere/hosts/` (the `hosts` folder might not exist, so make sure to create it if it's absent) 
 and paste this in your `emummc.txt` file:
 
-`# Block Nintendo Servers
+```INI
+# Block Nintendo Servers
 127.0.0.1 *nintendo.*
 127.0.0.1 *nintendo-europe.com
 127.0.0.1 *nintendoswitch.*
 95.216.149.205 *conntest.nintendowifi.net
-95.216.149.205 *ctest.cdn.nintendo.net`
+95.216.149.205 *ctest.cdn.nintendo.net
+```
 
 **3. Checking if everything worked**
 
@@ -88,3 +90,4 @@ Incognito is **permanent,** and relies on no files to stay active. It's best use
 **[Return to main page](https://magolol.github.io)**
 
 **[Return to guides](https://magolol.github.io)**
+
