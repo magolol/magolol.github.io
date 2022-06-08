@@ -1,0 +1,6 @@
+site_name: The Guides
+site_url: https://magolol.github.io
+nav:
+    - Home: index.md
+    - Guides: guides.md
+theme: cinder
