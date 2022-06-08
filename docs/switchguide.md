@@ -7,7 +7,7 @@ Fusee-gelee is a bootrom level hardware exploit nintendo is unable to patch. Eve
 The exploit [was eventually patched](https://twitter.com/SciresM/status/1016724847504736256) leaving the number of exploitable units on a permanent decline. These units can be hacked through hardmods, but we will not cover how to install.
 If you want a good, reliable video guide for installation of these modchips, check out [this playlist](https://modzvilleusa.myshopify.com/pages/hard-mods) on [ModzvileUSA's](https://twitter.com/modzvilleusa) site. 
 
-[Continue to getting started](https://magolol.github.io/guides/switchguide/gettingstarted)
+[Continue to getting started](https://magolol.github.io/switch-gettingstarted)
 
 **[Return to main page](https://magolol.github.io)**
 

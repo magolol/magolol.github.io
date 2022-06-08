@@ -7,7 +7,7 @@ nav:
         - 'Full Guide Part One': 'switchguide.md'
         - 'Switch frii': 'switchfrii.md'
         - 'Switch Ban Protection': 'switchbanprotection.md'
-        - 'Getting started': 'switch-gettingstarted.md'
+        - 'Getting started': 'gettingstarted.md'
     
 theme:
   name: null
