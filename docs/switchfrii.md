@@ -57,5 +57,5 @@ Your totally legit backups should now appear on your homescreen. Wow! wasn't tha
 
 **[Return to main page](https://magolol.github.io)**
 
-**[Return to guides](https://magolol.github.io)**
+**[Return to guides](https://magolol.github.io/guides)**
 

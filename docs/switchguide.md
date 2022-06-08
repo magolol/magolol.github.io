@@ -11,4 +11,4 @@ If you want a good, reliable video guide for installation of these modchips, che
 
 **[Return to main page](https://magolol.github.io)**
 
-**[Return to guides](https://magolol.github.io)**
+**[Return to guides](https://magolol.github.io/guides)**

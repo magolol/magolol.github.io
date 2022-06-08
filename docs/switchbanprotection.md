@@ -89,5 +89,5 @@ Incognito is **permanent,** and relies on no files to stay active. It's best use
 
 **[Return to main page](https://magolol.github.io)**
 
-**[Return to guides](https://magolol.github.io)**
+**[Return to guides](https://magolol.github.io/guides)**
 
