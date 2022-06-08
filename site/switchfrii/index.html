@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     
-    <link rel="canonical" href="https://magolol.github.io/guides/">
+    <link rel="canonical" href="https://magolol.github.io/switchfrii/">
     <link rel="shortcut icon" href="../img/favicon.ico">
 
     
-    <title>Guides - Mago's site</title>
+    <title>Switch frii - Mago's site</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -75,13 +75,13 @@
                 
                 
                 
-                    <li class="active">
-                        <a href="./">Guides</a>
+                    <li >
+                        <a href="../guides/">Guides</a>
                     </li>
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Switch Guide <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
@@ -92,8 +92,8 @@
 
                         
                             
-<li >
-    <a href="../switchfrii/">Switch frii</a>
+<li class="active">
+    <a href="./">Switch frii</a>
 </li>
 
                         
@@ -116,12 +116,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="..">
+                        <a rel="prev" href="../switchguide/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="next" href="../switchguide/">
+                        <a rel="next" href="../switchbanprotection/">
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -139,13 +139,41 @@
 </div></div>
         <div class="col-md-9" role="main">
 
-<p><a href="https://magolol.github.io/guides/3dsfrii"><strong>How to get 3DS and DS game "backups" running on the 3ds</strong></a></p>
-<p><a href="https://magolol.github.io/guides/switchfrii"><strong>How to get "backups" running on the Switch</strong></a></p>
-<p><a href="https://magolol.github.io/guides/switchguide"><strong>Switch Guide</strong></a></p>
-<p><a href="https://magolol.github.io/guides/switchbanprotection"><strong>How to get prevent bans on the Switch</strong></a></p>
-<p>[<strong>How to get Wii and Gamecube "backups" running on the Wii</strong>]</p>
-<p><a href="https://magolol.github.io/guides/wiiufrii"><strong>How to get Wii U, Wii, and Gamecube "backups" running on the Wii U</strong></a></p>
-<p><a href="https://magolol.github.io">Return to main page</a></p></div>
+<p><strong>A brief explanation of the process.</strong></p>
+<p>The switch is a very easy system to get CFW running on so long as you have an exploitable system. Read <a href="https://ismyswitchpatched.com">this</a> and <a href="switchgui.de">this</a> for more info. 
+Stock Atmosphère (the only valid CFW at the moment) does not have signature check patches but we can quite easily add them through community made patches.
+You can obtain these by <a href="https://suchmememanyskill.github.io/guides/switchdumpguide/">dumping them yourself</a> or "commiting fraud" and downloading them from a stash or site like <a href="https://nsw2u.xyz/">nsw2u</a></p>
+<p><strong>A few things to note</strong></p>
+<p>While hacking the system and installing unauthorized software is very easy, the switch is notorious for having a ton of telemetry which can result in a permanent system ban from all online services.
+We have many ways to prevent bans and block telemetry, and it is highly suggested you follow <a href="https://magolol.github.io/guides/switchbanprotection">this guide</a> before continuing. </p>
+<p><strong>While the chances of your hardware being damaged are very small, this guide and it's afilliates assume no responsibility if something goes wrong. Blame yourself, your eyes, your hands, your brain, etc.</strong>
+<strong>ALWAYS MAKE A BACKUP. THE BEST BACKUP IS THE ONE YOU MADE BUT NEVER NEED, WHILE THE WORST ONE IS THE ONE YOU NEED BUT NEVER MADE.</strong>
+DO NOT BLAME US. YOU HAVE BEEN WARNED</p>
+<p><strong>Downloads</strong></p>
+<p><a href="https://github.com/rashevskyv/dbi/releases/latest">DBI</a> 
+Download the <code>DBI.nro</code>, <code>dbi.config</code>, and the <code>dbibackend.exe</code>. If you aren't using windows, you'll need to extract the <code>dbibackend</code> folder from <code>dbibackend.tar.xz</code>
+<a href="https://github.com/ITotalJustice/patches/releases/latest">Atmosphère Patches</a> Grab either zip.</p>
+<p><strong>1. Getting started</strong></p>
+<p><strong>What you will need...</strong></p>
+<p>-Common Sense</p>
+<p>-A Switch console running cfw</p>
+<p>-Atmosphère Patches</p>
+<p>-NSP/NSZ/XCI/XCZ files (it doesn't matter which installable you choose, so long as you have the file is what counts.</p>
+<p>-DBI installed on both your switch and pc</p>
+<p>-A USB C cable</p>
+<p>-An SD card of decently large size</p>
+<p><strong>2. Setup</strong></p>
+<p>Power off the system (or reboot to hekate) and either eject your SD and insert it into your pc or use hekate's SD UMS tool to access your SD. Open the fusee.zip or hekate.zip (Atmosphère patches) and extract the two folders to the root of your SD.
+Open up the switch folder and make a subfolder titled DBI. Copy DBI.nro and dbi.config to this folder. Safely eject the SD (regardless of which method you use) and boot into Atmosphère</p>
+<p><strong>3. Launch the DBI Backend</strong></p>
+<p>Assuming your files are all held in a folder, navigate to that folder. If you're only installing one file, navigate to that file. Once everything is selected, press Start Server. Connect your USB cable to both your switch and PC.</p>
+<p><strong>4. Connect your USB cable to both the switch and pc</strong></p>
+<p>Launch DB Installer from the home menu. If you already launched DBI before connecting the USB, you might need to restart DBI on the switch in order for changes to take effect
+Select "Install title from USB"
+If all is correct, you will see the files on the switch. You can then use common sense to manually select and deselect what you want installed. Wait for the process to finish, then close out of DBI.</p>
+<p>Your totally legit backups should now appear on your homescreen. Wow! wasn't that easy?</p>
+<p><strong><a href="https://magolol.github.io">Return to main page</a></strong></p>
+<p><strong><a href="https://magolol.github.io">Return to guides</a></strong></p></div>
         
         
     </div>

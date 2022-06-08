@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     
-    <link rel="canonical" href="https://magolol.github.io/guides/">
+    <link rel="canonical" href="https://magolol.github.io/switchbanprotection/">
     <link rel="shortcut icon" href="../img/favicon.ico">
 
     
-    <title>Guides - Mago's site</title>
+    <title>Switch Ban Protection - Mago's site</title>
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -75,13 +75,13 @@
                 
                 
                 
-                    <li class="active">
-                        <a href="./">Guides</a>
+                    <li >
+                        <a href="../guides/">Guides</a>
                     </li>
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Switch Guide <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
@@ -98,8 +98,8 @@
 
                         
                             
-<li >
-    <a href="../switchbanprotection/">Switch Ban Protection</a>
+<li class="active">
+    <a href="./">Switch Ban Protection</a>
 </li>
 
                         
@@ -116,12 +116,12 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="..">
+                        <a rel="prev" href="../switchfrii/">
                             <i class="fas fa-arrow-left"></i> Previous
                         </a>
                     </li>
-                    <li >
-                        <a rel="next" href="../switchguide/">
+                    <li class="disabled">
+                        <a rel="next" >
                             Next <i class="fas fa-arrow-right"></i>
                         </a>
                     </li>
@@ -139,13 +139,82 @@
 </div></div>
         <div class="col-md-9" role="main">
 
-<p><a href="https://magolol.github.io/guides/3dsfrii"><strong>How to get 3DS and DS game "backups" running on the 3ds</strong></a></p>
-<p><a href="https://magolol.github.io/guides/switchfrii"><strong>How to get "backups" running on the Switch</strong></a></p>
-<p><a href="https://magolol.github.io/guides/switchguide"><strong>Switch Guide</strong></a></p>
-<p><a href="https://magolol.github.io/guides/switchbanprotection"><strong>How to get prevent bans on the Switch</strong></a></p>
-<p>[<strong>How to get Wii and Gamecube "backups" running on the Wii</strong>]</p>
-<p><a href="https://magolol.github.io/guides/wiiufrii"><strong>How to get Wii U, Wii, and Gamecube "backups" running on the Wii U</strong></a></p>
-<p><a href="https://magolol.github.io">Return to main page</a></p></div>
+<p><strong>A brief explanation before we get into it/establishing canonical backstory</strong></p>
+<p>The switch is a very easy system to get CFW running on so long as you have an exploitable system. Read <a href="https://ismyswitchpatched.com">this</a> and <a href="switchgui.de">this</a> for more info.
+But while hacking the system and installing unauthorized software is very easy, the switch is notorious for having a ton of telemetry which can result in a permanent system ban from all online services.
+We have many ways to prevent bans and block telemetry, and it is highly suggested you take all measures before continuing with anything switch related.</p>
+<p>emuMMC is a fantastic way to prevent bans when utilized properly, but it is not by itself perfect. But with a little bit of work, we can make it nearly perfect.</p>
+<p>What will get you banned</p>
+<ul>
+<li>Modifying Online Games<ul>
+<li>Cheating in online games</li>
+<li>Using mods in online games</li>
+<li>Editing save files for online games</li>
+</ul>
+</li>
+<li>Making modifications to your sysMMC<ul>
+<li>Installing nsp/*nsz/xci/xcz files<ul>
+<li>Installing homebrew forwarders OR backups (even if you legitimately dumped them!) will get you banned. </li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Clearing logs after they've been sent (this applies to both sysMMC and emuMMC)<ul>
+<li>Running anything to modify your sysMMC</li>
+<li>Using a custom user picture</li>
+</ul>
+</li>
+<li>Doing the above points on emuMMC without using:<ul>
+<li>Exosphere/Incognito</li>
+<li>dns.mitm</li>
+</ul>
+</li>
+</ul>
+<p><strong>Please note we will be doing semi permanent measures. While the chances of your hardware being damaged are very small, this guide and it's afilliates assume no responsibility if something goes wrong. Blame yourself, your eyes, your hands, your brain, etc.</strong>
+<strong>ALWAYS MAKE A BACKUP. THE BEST BACKUP IS THE ONE YOU MADE BUT NEVER NEED, WHILE THE WORST ONE IS THE ONE YOU NEED BUT NEVER MADE.</strong></p>
+<p><strong>DO NOT BLAME US. YOU HAVE BEEN WARNED</strong></p>
+<p><strong>Downloads</strong></p>
+<p>(Optional but recommended) <a href="https://tinfoil.io/Download#download">Tinfoil</a> (you can choose between which option)
+<a href="https://github.com/meganukebmp/Switch_90DNS_tester/releases/latest">90DNS tester</a></p>
+<p><strong>1. Creating exosphere</strong></p>
+<p>Start off by creating a file named exosphere.ini on the root of your SD and paste the following:</p>
+<p><strong>This assumes you are using emuMMC:</strong></p>
+<pre><code class="language-INI">[exosphere]
+debugmode=1
+debugmode_user=0
+disable_user_exception_handlers=0
+enable_user_pmu_access=0
+blank_prodinfo_sysmmc=0
+blank_prodinfo_emummc=1
+allow_writing_to_cal_sysmmc=0
+log_port=0
+log_baud_rate=115200
+log_inverted=0
+</code></pre>
+<p><strong>2. Creating dns.mitm</strong></p>
+<p>Create a file named <code>emummc.txt</code> in <code>/atmosphere/hosts/</code> (the <code>hosts</code> folder might not exist, so make sure to create it if it's absent) 
+and paste this in your <code>emummc.txt</code> file:</p>
+<pre><code class="language-INI"># Block Nintendo Servers
+127.0.0.1 *nintendo.*
+127.0.0.1 *nintendo-europe.com
+127.0.0.1 *nintendoswitch.*
+95.216.149.205 *conntest.nintendowifi.net
+95.216.149.205 *ctest.cdn.nintendo.net
+</code></pre>
+<p><strong>3. Checking if everything worked</strong></p>
+<p>Once you're finished creating dns.mitm and exosphere, download the switch 90DNS tester <code>.nro</code> file. Copy it to the switch folder on your SD card. 
+Exit out of the SD and safely eject it. Reinsert it to your system and boot atmosphere. </p>
+<p>Once in the OS, run the 90dns tester from the homebrew menu. With any luck, all links will be blocked. Restart your device and verify that exosphere is working by going into your Switch's Settings ➞ System ➞ Serial Information. You should see that your serial number will look something like XAW00000000000.</p>
+<p><strong>4. (Optional) Installing permanent incognito through Tinfoil</strong></p>
+<p>!!DO NOT RUN TINFOIL UNTIL YOU HAVE 100% CONFIRMED THE SYSTEM ISN'T REACHING NINTENDO!!</p>
+<p>If you happen to be running on a Mariko unit, DO NOT FOLLOW THIS STEP.</p>
+<p>Assuming you already have tinfoil installed, launch it and navigate to the Incognito tab near the bottom.
+Highlight your serial number in the right space and press Y. Tinfoil will warn you about the consequences if you forget your password.
+Either set the password as nothing or something simple that you are not going to forget. Should you forget your password, you will be able to pull this back from your NAND backup, worst case.</p>
+<p>If done correctly, Tinfoil will report writing to CAL0 was successful. Reboot the system. Verify incognito has been enabled correctly by doing the same process as listed in step 3.</p>
+<p>Incognito is <strong>permanent,</strong> and relies on no files to stay active. It's best usecase is as a fail safe. </p>
+<p><strong><a href="https://magolol.github.io">Return to main page</a></strong></p>
+<p><strong><a href="https://magolol.github.io">Return to guides</a></strong></p></div>
         
         
     </div>
