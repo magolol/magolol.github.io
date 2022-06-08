@@ -4,7 +4,7 @@ nav:
     - Home: index.md
     - Guides: guides.md
     - 'Switch Guide':
-        - 'Switch': 'switchguide.md'
+        - 'Full Guide Part One': 'switchguide.md'
         - 'Switch frii': 'switchfrii.md'
         - 'Switch Ban Protection': 'switchbanprotection.md'
 theme:
